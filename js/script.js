@@ -62,9 +62,9 @@ window.addEventListener("DOMContentLoaded", function () {
             let t = getTimeRemaining(endtime);
 
             function addZero(num) {
-                if (num <= 9) {
-                    return "0" + num;
-                } else return num;
+              if (num <= 9) {
+                return "0" + num;
+              } else { return num; }
             }
 
             hours.textContent = addZero(t.hours);
